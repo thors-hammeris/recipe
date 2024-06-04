@@ -73,7 +73,7 @@ const password = document.querySelector('.passwordElement')
 
 function checkPassword () {
     if (password.value === 'chutes') {
-        recipes.splice(1, 20);
+        recipes.splice(1, 200);
         saveRecipesToLocalStorage();
         displayRecipes();
     }
